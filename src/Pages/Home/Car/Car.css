@@ -1,0 +1,29 @@
+.cars-card h4, .price, .custom-button{
+    font-family: 'Oswald', sans-serif;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    color: #82C91E;
+}
+
+.custom-car-card{
+    overflow: hidden;
+}
+
+.custom-body{
+    z-index: 1;
+}
+
+.custom-car-card img{
+    transition: 1s;
+}
+
+.custom-car-card img:hover{
+    transform: scale(1.1);
+}
+
+.custom-button{
+    background: #7952B3;
+}
